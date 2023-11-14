@@ -1,0 +1,251 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+h1{
+  font-size: 69px;
+  text-align: center;
+  /*background-color: #22092C;*/
+  font-family: cursive;
+  color: #872341;
+  padding-top: 30px;
+  text-shadow: 5px 5px 10px  black;
+  position:absolute;
+  background: rgb(0, 0, 0,);
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 20px;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: #22092C;*/
+    background-image: url("C:\\Users\\jaina\\Downloads\\wp2771952.jpg");
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.content
+{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  gap: 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  width: min(900px, 100%);
+  box-shadow: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset, 0 1px 0 0 rgba(255, 255, 255, 0.66) inset, 0 4px 16px rgba(0, 0, 0, 0.12);
+  z-index: 10;
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    padding: 0 35px;
+    text-align: justify;
+}
+
+.info p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+.btn
+{
+
+  display: block;
+  padding: 10px 40px;
+  margin: 10px auto;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.swiper {
+    width: 250px;
+    height: 450px;
+    padding: 50px 0;
+}
+.swiper-slide {
+    position: relative;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.swiper-slide span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    padding: 7px 18px;
+    margin: 10px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: inherit;
+    background: rgba(255, 255, 255, 0.095);
+    box-shadow: inset 2.01px -2.01px 20px rgba(214, 214, 214, 0.17), inset -3.01333px 3.01333px 3.01333px rgba(255, 255, 255, 0.39);
+    backdrop-filter: blur(74px);
+  }
+  .swiper-slide h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin: 0 0 20px 20px;
+  }
+  .swiper-slide:nth-child(1n) {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),url("C:\\Users\\jaina\\Downloads\\MV5BYzI0OWJlMjItYmE1NS00YzE2LWExNDAtMDM3MDA5MzM5NmExXkEyXkFqcGdeQXVyNzA5MDUyODA@.jpg") 
+        no-repeat 50% 50% / cover;
+  }
+  .swiper-slide:nth-child(2n) {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("C:\\Users\\jaina\\OneDrive\\Desktop\\web dev\\extra\\135625.jpg")
+        no-repeat 50% 50% / cover;
+  }
+  .swiper-slide:nth-child(3n) {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("C:\\Users\\jaina\\Downloads\\Attack.on.Titan.600.1417657.jpg")
+        no-repeat 50% 50% / cover;
+  }
+  .swiper-slide:nth-child(4n) {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),url("C:\\Users\\jaina\\Downloads\\wallpaperflare.com_wallpaper (1).jpg") 
+        no-repeat 50% 50% / cover;
+  }
+  .swiper-slide:nth-child(5n) {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),url("C:\\Users\\jaina\\Downloads\\7759152c82269e12f895493489695bf4.jpg") 
+        no-repeat 50% 50% / cover;
+  }
+  .swiper-slide:nth-child(6n) {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),url("C:\\Users\\jaina\\Downloads\\saitama-one-punch-man-anime-gloves-wallpaper-preview.jpg") 
+        no-repeat 50% 50% / cover;
+  }
+  .swiper-slide:nth-child(7n) {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("C:\\Users\\jaina\\Downloads\\Mushoku.Tensei_.Isekai.Ittara.Honki.Dasu.600.2985146.jpg")
+        no-repeat 50% 50% / cover;
+  }
+  .swiper-slide:nth-child(8n) {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("C:\\Users\\jaina\\Downloads\\cyberpunk-edgerunners-cyberpunk-2077-hd-wallpaper-preview.jpg")
+        no-repeat 50% 50% / cover;
+  }
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+  }
+  
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+  }
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+
+  }
+  .circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+  }
+  
+  .circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+
+  }
+  
+  .circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+  }
+  
+  .circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 0s;
+  }
+  
+  .circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+  }
+  
+  .circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 0s;
+
+  }
+
+/*@keyframes animate {
+
+    0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 50%;
+  }
+  
+  100%{
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 0;
+    }
+  
+}*\
